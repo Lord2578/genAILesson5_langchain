@@ -1,0 +1,27 @@
+{
+  "name": "genailesson5_langchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "simple": "node --env-file=.env simple.mjs",
+    "prompt-template": "node --env-file=.env prompt-template.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lord2578/genAILesson5_langchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lord2578/genAILesson5_langchain/issues"
+  },
+  "homepage": "https://github.com/Lord2578/genAILesson5_langchain#readme",
+  "dependencies": {
+    "@langchain/core": "^0.3.46",
+    "@langchain/openai": "^0.5.6",
+    "langchain": "^0.3.23"
+  }
+}
